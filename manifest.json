@@ -1,0 +1,16 @@
+{
+  "name": "sshout Helper",
+  "version": "0.1",
+  "manifest_version":2,
+  "description": "sshout Helper",
+   "background": {"page": "background.html"},
+  "browser_action": {
+    "name": "sshout Helper"
+  },
+  "content_scripts": [ {
+    "js": ["jquery.min.js","background.js"],
+    "css":["customstyles.css"],
+    "matches": [ "*://bucharest-ssh-out.corp.adobe.com/*"],
+    "run_at": "document_start"
+  }]
+}
