@@ -1,5 +1,9 @@
 # sshouthelper
 
+This Chrome extension will add styling and increase usability for bucharest sshout
+* Adds 'submit on ENTER' functionality
+* Adds explanatory notes to fields
+
 ## How to use ##
 
 * Clone this repo in a local folder. This will be your extension folder
