@@ -25,6 +25,6 @@ jQuery(document).ready(function(){
 });
 jQuery(document).on("keyup",function(e){
 	if(e.keyCode == 13){
-		jQuery("input[type='button']").click();
+		jQuery("form[name='webauthlogin']").submit();
 	}
 })
